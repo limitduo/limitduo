@@ -12,27 +12,25 @@ a:hover {
   color: gray;
 }
 
-body {
-  margin-top: 50px;
+.margin {
   margin-left: 50px;
 }
 
+.textmargin {
+  margin-left: 10%;
+}
 @media screen and (max-width: 992px) {
-  body {
+  .margin {
     margin-top: 50px;
     margin-left: 50px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  body {
+  .margin {
     margin-top: 25px;
     margin-left: 25px;
   }
-}
-
-.home {
-  margin-top: 50px;
 }
 
 .video-container {
@@ -48,7 +46,12 @@ body {
 .video-container embed {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 10%;
+  width: 80%;
   height: 100%;
 }
+
+.navigator {
+  margin-bottom: 50px;
+}
+
