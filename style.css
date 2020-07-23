@@ -19,10 +19,46 @@ a:hover {
 .textmargin {
   margin-left: 10%;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+  }
+
 @media screen and (max-width: 992px) {
   .margin {
     margin-top: 50px;
     margin-left: 50px;
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -31,27 +67,25 @@ a:hover {
     margin-top: 25px;
     margin-left: 25px;
   }
-}
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
 
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 10%;
-  width: 80%;
-  height: 100%;
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 400px;
+    height: 400px;
+  }
 }
 
 .navigator {
   margin-bottom: 50px;
 }
-
