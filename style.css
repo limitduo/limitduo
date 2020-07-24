@@ -16,9 +16,6 @@ a:hover {
   margin-left: 50px;
 }
 
-.textmargin {
-  margin-left: 10%;
-}
 
 .video-container {
     position: relative;
@@ -64,8 +61,8 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .margin {
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
   }
   .video-container {
     position: relative;
@@ -80,9 +77,9 @@ a:hover {
   .video-container embed {
     position: absolute;
     top: 0;
-    left: 25px;
-    width: 400px;
-    height: 400px;
+    left: 50px;
+    width: 250px;
+    height: 250px;
   }
 }
 
