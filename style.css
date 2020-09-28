@@ -2,7 +2,10 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
-
+p {
+  margin: 2px, 0px, 2px, 0;
+  padding: 2px, 0px, 2px, 0;
+}
 a {
   text-decoration: none;
   color: black;
@@ -15,10 +18,10 @@ a:hover {
 .video-container iframe {
   margin-left: 50px;
   width: 400px;
-  height: 400px;
+  height: 300px; -->
 }
 .margin {
-  margin-top: 0;
+  margin-top: 50px;
   margin-left: 50px;
 }
 
@@ -26,10 +29,10 @@ a:hover {
   .video-container iframe {
     margin-left: 50px;
     width: 400px;
-    height: 400px;
+    <!-- height: 400px; -->
   }
   .margin {
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: 50px;
   }
 }
@@ -38,14 +41,31 @@ a:hover {
   .video-container iframe {
     margin-left: 50px;
     width: 250px;
-    height: 250px;
+    <!-- height: 250px; -->
   }
   .margin {
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: 50px;
+  }
+  p {
+  margin: .5px, 0px, .5px, 0;
+  padding: .5px, 0px, .5px, 0;
   }
 }
 
-.navigator {
-  margin-bottom: 50px;
+
+.text {
+  border: solid black 2px;
+  margin-right: 40%;
+ 
+}
+
+h {
+  font-size: 20px;
+}
+
+.header {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
